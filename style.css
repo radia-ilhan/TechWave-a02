@@ -321,7 +321,7 @@ img {
     flex: 1;
     background-color: #17133a;
     border: 1px solid rgba(130, 79, 255, 0.18);
-    border-radius: 14px;
+    border-radius: 10px;
     padding: 30px 20px;
     text-align: center;
 }
@@ -346,7 +346,7 @@ img {
 }
 
 
-/* why section */
+/* why cards */
 .why {
     padding: 80px 0;
     background-color: #0c0920;
@@ -359,7 +359,7 @@ img {
 }
 
 .big-card {
-    flex: 1.2;
+    width:60%;
 }
 
 .right-cards {
@@ -418,7 +418,7 @@ img {
 }
 
 
-/* episodes */
+
 .episodes {
     padding: 80px 0;
     background-color: #100d24;
@@ -434,7 +434,7 @@ img {
     flex: 1;
     background-color: #17133a;
     border: 1px solid rgba(110, 79, 255, 0.2);
-    border-radius: 14px;
+    border-radius: 12px;
     overflow: hidden;
 }
 
