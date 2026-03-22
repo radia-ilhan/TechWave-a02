@@ -1,237 +1,287 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TechWave – Tech Insights & Productivity Podcast</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechWave Podcast</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <!-- ===================== NAVBAR ===================== -->
-    <nav class="navbar" id="navbar">
-        <div class="nav-container">
 
-            <!-- Logo -->
-            <a href="#" class="logo">Tech<span>Wave</span></a>
+    <!-- navbar -->
+    <nav class="navbar">
+        <div class="nav-wrap">
 
-            <!-- CSS-only hamburger toggle -->
-            <input type="checkbox" id="nav-toggle" class="nav-toggle" />
-            <label for="nav-toggle" class="hamburger" aria-label="Toggle navigation">
-                <img src="hamburger-menu.png" alt="Menu" />
+            <a href="#" class="logo">Tech<span class="logo-color">Wave</span></a>
+
+            <!-- hidden checkbox for mobile menu -->
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="hamburger">
+                <img src="hamburger-menu.png" alt="menu">
             </label>
 
-            <!-- Nav links -->
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
                 <li><a href="#episodes">Episodes</a></li>
                 <li><a href="#host">Host</a></li>
             </ul>
 
-            <!-- CTA button -->
-            <a href="#episodes" class="btn-nav-subscribe">Subscribe &rarr;</a>
+            <a href="#episodes" class="sub-btn">Subscribe &rarr;</a>
 
         </div>
     </nav>
 
-    <!-- ===================== HERO SECTION ===================== -->
-    <section class="hero" id="home">
-        <div class="hero-bg-wrap">
-            <img src="hero-bg(1).png" alt="" class="hero-bg-img" />
-            <div class="hero-overlay"></div>
+
+    <!-- hero section -->
+    <section class="hero">
+
+        <div class="hero-bg">
+            <img src="hero-bg(1).png" alt="">
+        </div>
+        <div class="hero-dark"></div>
+
+        <!-- left wave bars -->
+        <div class="wave-left">
+            <span style="height:10px"></span>
+            <span style="height:22px"></span>
+            <span style="height:14px"></span>
+            <span style="height:36px"></span>
+            <span style="height:20px"></span>
+            <span style="height:30px"></span>
+            <span style="height:12px"></span>
+            <span style="height:25px"></span>
+            <span style="height:42px"></span>
+            <span style="height:16px"></span>
+            <span style="height:28px"></span>
+            <span style="height:8px"></span>
+            <span style="height:18px"></span>
+            <span style="height:35px"></span>
+            <span style="height:10px"></span>
         </div>
 
-        <!-- Waveform decorations (CSS) -->
-        <div class="waveform waveform-left" aria-hidden="true"></div>
-        <div class="waveform waveform-right" aria-hidden="true"></div>
+        <!-- right wave bars -->
+        <div class="wave-right">
+            <span style="height:10px"></span>
+            <span style="height:22px"></span>
+            <span style="height:14px"></span>
+            <span style="height:36px"></span>
+            <span style="height:20px"></span>
+            <span style="height:30px"></span>
+            <span style="height:12px"></span>
+            <span style="height:25px"></span>
+            <span style="height:42px"></span>
+            <span style="height:16px"></span>
+            <span style="height:28px"></span>
+            <span style="height:8px"></span>
+            <span style="height:18px"></span>
+            <span style="height:35px"></span>
+            <span style="height:10px"></span>
+        </div>
 
         <div class="hero-content">
-            <div class="podcast-circle-wrap">
-                <span class="new-badge">NEW</span>
-                <div class="podcast-circle">
-                    <img src="hero-circle.png" alt="TechWave Podcast Circle" />
+
+            <div class="mic-wrap">
+                <span class="new-tag">NEW</span>
+                <div class="mic-circle">
+                    <img src="hero-circle.png" alt="podcast mic">
                 </div>
-                <div class="circle-glow" aria-hidden="true"></div>
             </div>
 
             <h1 class="hero-title">TechWave</h1>
-            <p class="hero-subtitle">Your daily dose of tech insights, productivity hacks, and personal growth.</p>
+            <p class="hero-sub">Your daily dose of tech insights, productivity hacks, and personal growth.</p>
 
-            <div class="hero-buttons">
-                <a href="https://spotify.com" target="_blank" rel="noopener" class="btn-spotify">
-                    <img src="spotify.png" alt="Spotify" class="btn-icon" />
+            <div class="hero-btns">
+                <a href="https://spotify.com" target="_blank" class="btn-spotify">
+                    <img src="spotify.png" alt="spotify" class="btn-img">
                     Listen On Spotify
                 </a>
-                <a href="#episodes" class="btn-subscribe-outline">
-                    <span class="plus-icon">&#8853;</span> Subscribe
-                </a>
+                <a href="#episodes" class="btn-outline">&#8853; Subscribe</a>
             </div>
+
         </div>
     </section>
 
-    <!-- ===================== ABOUT SECTION ===================== -->
+
+    <!-- about section -->
     <section class="about" id="about">
         <div class="container">
-            <h2 class="section-heading">About The Podcast</h2>
-            <p class="about-text">
+
+            <h2 class="section-title">About The Podcast</h2>
+
+            <p class="about-para">
                 TechWave is your go-to podcast for staying ahead in the fast-paced world of technology.
                 We break down complex topics into digestible insights, explore productivity strategies
                 that actually work, and share stories of personal growth from industry leaders.
             </p>
-            <p class="about-text about-text--sub">
+            <p class="about-para">
                 Join thousands of young professionals and tech enthusiasts who start their day with TechWave.
             </p>
 
-            <div class="stats-grid">
-                <div class="stat-card">
-                    <span class="stat-number">150K+</span>
-                    <span class="stat-label">MONTHLY LISTENERS</span>
+            <div class="stats-row">
+
+                <div class="stat-box">
+                    <h3 class="stat-num">150K+</h3>
+                    <p class="stat-label">MONTHLY LISTENERS</p>
                 </div>
-                <div class="stat-card">
-                    <span class="stat-number">200+</span>
-                    <span class="stat-label">EPISODES PUBLISHED</span>
+
+                <div class="stat-box">
+                    <h3 class="stat-num">200+</h3>
+                    <p class="stat-label">EPISODES PUBLISHED</p>
                 </div>
-                <div class="stat-card">
-                    <span class="stat-number">4.9&#9733;</span>
-                    <span class="stat-label">AVERAGE RATING</span>
+
+                <div class="stat-box">
+                    <h3 class="stat-num">4.9&#9733;</h3>
+                    <p class="stat-label">AVERAGE RATING</p>
                 </div>
-                <div class="stat-card">
-                    <span class="stat-number">50+</span>
-                    <span class="stat-label">INDUSTRY EXPERTS</span>
+
+                <div class="stat-box">
+                    <h3 class="stat-num">50+</h3>
+                    <p class="stat-label">INDUSTRY EXPERTS</p>
                 </div>
+
             </div>
+
         </div>
     </section>
 
-    <!-- ===================== WHY CHOOSE SECTION ===================== -->
-    <section class="why-choose" id="why">
+
+    <!-- why choose section -->
+    <section class="why" id="why">
         <div class="container">
-            <h2 class="section-heading">Why Choose TechWave</h2>
 
-            <div class="features-grid">
+            <h2 class="section-title">Why Choose TechWave</h2>
 
-                <!-- Card 1 – Large Left -->
-                <div class="feature-card feature-card--large">
-                    <div class="feature-icon-wrap">
-                        <img src="headphone.png" alt="Headphone" class="feature-icon" />
+            <div class="features-top">
+
+                <div class="feat-box feat-big">
+                    <div class="icon-wrap">
+                        <img src="headphone.png" alt="headphone" class="feat-icon">
                     </div>
-                    <h3 class="feature-title">Premium Audio Quality</h3>
-                    <p class="feature-desc">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
+                    <h3 class="feat-title">Premium Audio Quality</h3>
+                    <p class="feat-para">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.</p>
                 </div>
 
-                <!-- Right column stack -->
-                <div class="features-col">
-                    <div class="feature-card">
-                        <div class="feature-icon-wrap">
-                            <img src="device.png" alt="Device" class="feature-icon" />
+                <div class="features-right">
+
+                    <div class="feat-box">
+                        <div class="icon-wrap">
+                            <img src="device.png" alt="device" class="feat-icon">
                         </div>
-                        <h3 class="feature-title">Mobile Friendly</h3>
-                        <p class="feature-desc">Listen on the go with seamless mobile experience and offline downloads.</p>
+                        <h3 class="feat-title">Mobile Friendly</h3>
+                        <p class="feat-para">Listen on the go with seamless mobile experience and offline downloads.</p>
                     </div>
 
-                    <div class="feature-card">
-                        <div class="feature-icon-wrap">
-                            <img src="location.png" alt="Location" class="feature-icon" />
+                    <div class="feat-box">
+                        <div class="icon-wrap">
+                            <img src="location.png" alt="location" class="feat-icon">
                         </div>
-                        <h3 class="feature-title">Global Community</h3>
-                        <p class="feature-desc">Connect with tech enthusiasts from over 120 countries worldwide.</p>
+                        <h3 class="feat-title">Global Community</h3>
+                        <p class="feat-para">Connect with tech enthusiasts from over 120 countries worldwide.</p>
                     </div>
-                </div>
 
-                <!-- Card 4 – Bottom Left -->
-                <div class="feature-card">
-                    <div class="feature-icon-wrap">
-                        <img src="microphone.png" alt="Microphone" class="feature-icon" />
-                    </div>
-                    <h3 class="feature-title">Exclusive Interviews</h3>
-                    <p class="feature-desc">Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and success strategies.</p>
-                </div>
-
-                <!-- Card 5 – Bottom Right -->
-                <div class="feature-card">
-                    <div class="feature-icon-wrap">
-                        <img src="resource.png" alt="Resources" class="feature-icon" />
-                    </div>
-                    <h3 class="feature-title">Rich Resources</h3>
-                    <p class="feature-desc">Access show notes, transcripts, and additional learning materials for every episode.</p>
                 </div>
 
             </div>
+
+            <div class="features-bottom">
+
+                <div class="feat-box">
+                    <div class="icon-wrap">
+                        <img src="microphone.png" alt="mic" class="feat-icon">
+                    </div>
+                    <h3 class="feat-title">Exclusive Interviews</h3>
+                    <p class="feat-para">Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and success strategies.</p>
+                </div>
+
+                <div class="feat-box">
+                    <div class="icon-wrap">
+                        <img src="resource.png" alt="resource" class="feat-icon">
+                    </div>
+                    <h3 class="feat-title">Rich Resources</h3>
+                    <p class="feat-para">Access show notes, transcripts, and additional learning materials for every episode.</p>
+                </div>
+
+            </div>
+
         </div>
     </section>
 
-    <!-- ===================== FEATURED EPISODES ===================== -->
+
+    <!-- featured episodes section -->
     <section class="episodes" id="episodes">
         <div class="container">
-            <h2 class="section-heading">Featured Episodes</h2>
 
-            <div class="episodes-grid">
+            <h2 class="section-title">Featured Episodes</h2>
 
-                <!-- Episode 1 -->
-                <div class="episode-card">
-                    <div class="episode-thumb ep-thumb--1">
-                        <a href="https://www.youtube.com/results?search_query=AI+everyday+life" target="_blank" rel="noopener" class="play-btn" aria-label="Play episode">
+            <div class="ep-row">
+
+                <div class="ep-card">
+                    <div class="ep-thumb thumb1">
+                        <a href="https://www.youtube.com/results?search_query=AI+everyday+life" target="_blank" class="play-btn">
                             <span class="play-icon">&#9654;</span>
                         </a>
                     </div>
-                    <div class="episode-body">
-                        <h3 class="episode-title">The Future of AI in Everyday Life</h3>
-                        <p class="episode-desc">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
-                        <span class="episode-duration">
-                            <img src="clock.png" alt="Duration" class="clock-icon" /> 42 min
+                    <div class="ep-info">
+                        <h3 class="ep-title">The Future of AI in Everyday Life</h3>
+                        <p class="ep-desc">Exploring how artificial intelligence is transforming our daily routines and what to expect in the next decade.</p>
+                        <span class="ep-time">
+                            <img src="clock.png" alt="time" class="clock-img"> 42 min
                         </span>
                     </div>
                 </div>
 
-                <!-- Episode 2 -->
-                <div class="episode-card">
-                    <div class="episode-thumb ep-thumb--2">
-                        <a href="https://www.youtube.com/results?search_query=remote+work+habits" target="_blank" rel="noopener" class="play-btn" aria-label="Play episode">
+                <div class="ep-card">
+                    <div class="ep-thumb thumb2">
+                        <a href="https://www.youtube.com/results?search_query=remote+work+habits" target="_blank" class="play-btn">
                             <span class="play-icon">&#9654;</span>
                         </a>
                     </div>
-                    <div class="episode-body">
-                        <h3 class="episode-title">Building Better Habits for Remote Work</h3>
-                        <p class="episode-desc">Practical strategies for staying productive and maintaining work-life balance in a remote environment.</p>
-                        <span class="episode-duration">
-                            <img src="clock.png" alt="Duration" class="clock-icon" /> 35 min
+                    <div class="ep-info">
+                        <h3 class="ep-title">Building Better Habits for Remote Work</h3>
+                        <p class="ep-desc">Practical strategies for staying productive and maintaining work-life balance in a remote environment.</p>
+                        <span class="ep-time">
+                            <img src="clock.png" alt="time" class="clock-img"> 35 min
                         </span>
                     </div>
                 </div>
 
-                <!-- Episode 3 -->
-                <div class="episode-card">
-                    <div class="episode-thumb ep-thumb--3">
-                        <a href="https://www.youtube.com/results?search_query=tech+career+growth" target="_blank" rel="noopener" class="play-btn" aria-label="Play episode">
+                <div class="ep-card">
+                    <div class="ep-thumb thumb3">
+                        <a href="https://www.youtube.com/results?search_query=tech+career+growth" target="_blank" class="play-btn">
                             <span class="play-icon">&#9654;</span>
                         </a>
                     </div>
-                    <div class="episode-body">
-                        <h3 class="episode-title">Career Growth in Tech: A Roadmap</h3>
-                        <p class="episode-desc">Expert advice on navigating your tech career from junior developer to senior leadership roles.</p>
-                        <span class="episode-duration">
-                            <img src="clock.png" alt="Duration" class="clock-icon" /> 51 min
+                    <div class="ep-info">
+                        <h3 class="ep-title">Career Growth in Tech: A Roadmap</h3>
+                        <p class="ep-desc">Expert advice on navigating your tech career from junior developer to senior leadership roles.</p>
+                        <span class="ep-time">
+                            <img src="clock.png" alt="time" class="clock-img"> 51 min
                         </span>
                     </div>
                 </div>
 
             </div>
+
         </div>
     </section>
 
-    <!-- ===================== HOST SECTION ===================== -->
-    <section class="host-section" id="host">
+
+    <!-- host section -->
+    <section class="host" id="host">
         <div class="container">
-            <h2 class="section-heading">Meet The Host</h2>
+
+            <h2 class="section-title">Meet The Host</h2>
 
             <div class="host-card">
-                <div class="host-image-wrap">
-                    <img src="host.png" alt="Alex Kumar – Host of TechWave" class="host-img" />
+
+                <div class="host-img-box">
+                    <img src="host.png" alt="Alex Kumar" class="host-img">
                 </div>
-                <div class="host-details">
+
+                <div class="host-info">
                     <h3 class="host-name">Alex Kumar</h3>
                     <p class="host-bio">
                         Tech entrepreneur, productivity expert, and lifelong learner. Alex has been in the tech
@@ -239,54 +289,60 @@
                         TechWave, Alex shares insights from industry leaders and practical advice for anyone
                         looking to grow in tech.
                     </p>
-                    <div class="host-socials">
-                        <a href="#" class="social-link" aria-label="LinkedIn">
-                            <img src="linkedin.png" alt="LinkedIn" />
+                    <div class="socials">
+                        <a href="#" class="social-icon">
+                            <img src="linkedin.png" alt="linkedin">
                         </a>
-                        <a href="#" class="social-link" aria-label="X / Twitter">
-                            <img src="x.png" alt="X" />
+                        <a href="#" class="social-icon">
+                            <img src="x.png" alt="x">
                         </a>
-                        <a href="#" class="social-link" aria-label="Instagram">
-                            <img src="instagram.png" alt="Instagram" />
+                        <a href="#" class="social-icon">
+                            <img src="instagram.png" alt="instagram">
                         </a>
-                        <a href="#" class="social-link" aria-label="YouTube">
-                            <img src="youtube.png" alt="YouTube" />
+                        <a href="#" class="social-icon">
+                            <img src="youtube.png" alt="youtube">
                         </a>
                     </div>
                 </div>
+
             </div>
 
         </div>
     </section>
 
-    <!-- ===================== FOOTER ===================== -->
-    <footer class="footer" id="footer">
-        <div class="footer-bg-wrap">
-            <img src="footer-bg.png" alt="" class="footer-bg-img" />
-            <div class="footer-bg-overlay"></div>
+
+    <!-- footer -->
+    <footer class="footer">
+
+        <div class="footer-bg">
+            <img src="footer-bg.png" alt="">
         </div>
+        <div class="footer-dark"></div>
 
         <div class="container footer-inner">
-            <div class="footer-logo">Tech<span>Wave</span></div>
 
-            <nav class="footer-platforms" aria-label="Listen on">
-                <a href="https://spotify.com" target="_blank" rel="noopener" class="footer-platform-link">
-                    <img src="spotify.png" alt="Spotify" /> Spotify
+            <div class="footer-logo">Tech<span class="logo-color">Wave</span></div>
+
+            <div class="footer-links">
+                <a href="https://spotify.com" target="_blank" class="footer-link">
+                    <img src="spotify.png" alt="spotify"> Spotify
                 </a>
-                <a href="https://podcasts.apple.com" target="_blank" rel="noopener" class="footer-platform-link">
-                    <img src="apple-podcast.png" alt="Apple Podcasts" /> Apple Podcasts
+                <a href="https://podcasts.apple.com" target="_blank" class="footer-link">
+                    <img src="apple-podcast.png" alt="apple"> Apple Podcasts
                 </a>
-                <a href="https://youtube.com" target="_blank" rel="noopener" class="footer-platform-link">
-                    <img src="youtube-podcast.png" alt="YouTube" /> YouTube
+                <a href="https://youtube.com" target="_blank" class="footer-link">
+                    <img src="youtube-podcast.png" alt="youtube"> YouTube
                 </a>
-                <a href="https://twitter.com" target="_blank" rel="noopener" class="footer-platform-link">
-                    <img src="twitter.png" alt="Twitter" /> Twitter
+                <a href="https://twitter.com" target="_blank" class="footer-link">
+                    <img src="twitter.png" alt="twitter"> Twitter
                 </a>
-            </nav>
+            </div>
 
             <p class="footer-copy">&copy; 2026 TechWave Podcast. All rights reserved.</p>
+
         </div>
     </footer>
+
 
 </body>
 </html>
