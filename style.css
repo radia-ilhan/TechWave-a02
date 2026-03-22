@@ -40,7 +40,7 @@ img {
     margin-bottom: 16px;
 }
 
-/* gradient on logo text, found this on stackoverflow */
+/* gradient text */
 .grad-text {
     background: linear-gradient(90deg, #ff6b9d, #f9a825, #d94fc8);
     -webkit-background-clip: text;
@@ -49,7 +49,7 @@ img {
 }
 
 
-/* navbar styles */
+/* navbar */
 .navbar {
     position: fixed;
     top: 0;
@@ -85,7 +85,6 @@ img {
 
 .links a {
     font-size: 14px;
-    font-weight: 500;
     color: #8a86b8;
 }
 
@@ -117,7 +116,6 @@ img {
 
 .hamburger img {
     width: 26px;
-    height: 26px;
 }
 
 
@@ -150,10 +148,7 @@ img {
 
 .bg-dark {
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    inset: 0;
     background: linear-gradient(to bottom, rgba(12,9,32,0.3), rgba(12,9,32,0.7) 70%, #0c0920 100%);
     z-index: 1;
 }
@@ -170,13 +165,8 @@ img {
     opacity: 0.5;
 }
 
-.bars-left {
-    left: 3%;
-}
-
-.bars-right {
-    right: 3%;
-}
+.bars-left { left: 3%; }
+.bars-right { right: 3%; }
 
 .bars-left span,
 .bars-right span {
@@ -253,7 +243,7 @@ img {
     max-width: 440px;
 }
 
-.hero-btns {
+.btns {
     display: flex;
     gap: 14px;
     flex-wrap: wrap;
@@ -271,7 +261,7 @@ img {
     font-weight: 700;
     padding: 10px 22px;
     border-radius: 50px;
-    transition: transform 0.2s, box-shadow 0.2s;
+    transition: transform 0.2s;
 }
 
 .btn-spotify:hover {
@@ -282,7 +272,6 @@ img {
 .btn-img {
     width: 18px;
     height: 18px;
-    object-fit: contain;
 }
 
 .btn-outline {
@@ -295,17 +284,15 @@ img {
     font-weight: 600;
     padding: 10px 22px;
     border-radius: 50px;
-    transition: background-color 0.3s, transform 0.2s;
 }
 
 .btn-outline:hover {
     background-color: rgba(255, 255, 255, 0.08);
     border-color: rgba(255, 255, 255, 0.6);
-    transform: translateY(-2px);
 }
 
 
-/* about section */
+/* about */
 .about {
     padding: 80px 0;
     background-color: #100d24;
@@ -321,11 +308,11 @@ img {
 
 .stats-row {
     display: flex;
-    gap: 20px;
+    gap: 18px;
     margin-top: 50px;
 }
 
-.stat-box {
+.box {
     flex: 1;
     background-color: #17133a;
     border: 1px solid rgba(130, 79, 255, 0.18);
@@ -334,9 +321,8 @@ img {
     text-align: center;
 }
 
-.stat-box:hover {
+.box:hover {
     transform: translateY(-4px);
-    box-shadow: 0 0 40px rgba(123, 79, 255, 0.2);
 }
 
 .stat-num {
@@ -367,7 +353,6 @@ img {
     margin-top: 40px;
 }
 
-/* made this one wider than the others */
 .big-card {
     flex: 1.2;
 }
@@ -394,8 +379,6 @@ img {
 }
 
 .card:hover {
-    transform: translateY(-4px);
-    box-shadow: 0 0 40px rgba(123, 79, 255, 0.2);
     background-color: #1e1a46;
 }
 
@@ -414,7 +397,6 @@ img {
 .icon-img {
     width: 28px;
     height: 28px;
-    object-fit: contain;
 }
 
 .card-title {
@@ -431,7 +413,7 @@ img {
 }
 
 
-/* episodes section */
+/* episodes */
 .episodes {
     padding: 80px 0;
     background-color: #100d24;
@@ -443,7 +425,7 @@ img {
     margin-top: 40px;
 }
 
-.ep-card {
+.ep-item {
     flex: 1;
     background-color: #17133a;
     border: 1px solid rgba(110, 79, 255, 0.2);
@@ -451,15 +433,14 @@ img {
     overflow: hidden;
 }
 
-.ep-card:hover {
+.ep-item:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 40px rgba(123, 79, 255, 0.3);
 }
 
-.ep-thumb {
+.thumb {
     position: relative;
     height: 170px;
-    overflow: hidden;
 }
 
 .thumb1 {
@@ -486,7 +467,6 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: transform 0.2s;
 }
 
 .play-btn:hover {
@@ -512,7 +492,7 @@ img {
     line-height: 1.4;
 }
 
-.ep-desc {
+.desc {
     font-size: 13px;
     color: #8a86b8;
     line-height: 1.65;
@@ -531,11 +511,10 @@ img {
 .clock-img {
     width: 14px;
     height: 14px;
-    object-fit: contain;
 }
 
 
-/* host section */
+/* host */
 .host {
     padding: 80px 0;
     background-color: #0c0920;
@@ -597,18 +576,15 @@ img {
     align-items: center;
     justify-content: center;
     padding: 7px;
-    transition: background-color 0.25s;
 }
 
 .s-icon:hover {
     background-color: rgba(123, 79, 255, 0.25);
-    transform: translateY(-2px);
 }
 
 .s-icon img {
     width: 18px;
     height: 18px;
-    object-fit: contain;
 }
 
 
@@ -622,10 +598,7 @@ img {
 
 .footer-bg {
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    inset: 0;
     z-index: 0;
 }
 
@@ -638,10 +611,7 @@ img {
 
 .footer-dark {
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    inset: 0;
     background: linear-gradient(to bottom, #080618 0%, rgba(8,6,24,0.5) 40%, #080618 100%);
     z-index: 1;
 }
@@ -665,7 +635,7 @@ img {
 .footer-links {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
+    gap: 22px;
     justify-content: center;
 }
 
@@ -675,13 +645,11 @@ img {
     gap: 6px;
     color: #8a86b8;
     font-size: 14px;
-    font-weight: 500;
 }
 
 .f-link img {
     width: 18px;
     height: 18px;
-    object-fit: contain;
 }
 
 .f-link:hover {
@@ -698,14 +666,14 @@ img {
 }
 
 
-/* tablet view */
+/* for tablet */
 @media (max-width: 992px) {
 
     .stats-row {
         flex-wrap: wrap;
     }
 
-    .stat-box {
+    .box {
         width: 48%;
         flex: unset;
     }
@@ -714,7 +682,7 @@ img {
         flex-wrap: wrap;
     }
 
-    .ep-card {
+    .ep-item {
         width: 47%;
         flex: unset;
     }
@@ -751,7 +719,6 @@ img {
         margin-left: auto;
     }
 
-    /* show menu when checkbox clicked */
     #menu-toggle:checked ~ .links {
         display: flex;
         flex-direction: column;
@@ -789,7 +756,7 @@ img {
         height: 155px;
     }
 
-    .hero-btns {
+    .btns {
         flex-direction: column;
         align-items: center;
     }
@@ -804,7 +771,6 @@ img {
         padding: 50px 0;
     }
 
-    /* used grid here so it shows 2 per row */
     .stats-row {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -845,7 +811,7 @@ img {
         flex-direction: column;
     }
 
-    .ep-card {
+    .ep-item {
         width: 100%;
     }
 
