@@ -32,7 +32,7 @@ img {
     margin: 0 auto;
 }
 
-.heading {
+.sec-title {
     font-size: 32px;
     font-weight: 700;
     text-align: center;
@@ -40,8 +40,8 @@ img {
     margin-bottom: 16px;
 }
 
-/* gradient text - got this from stackoverflow */
-.grad {
+/* gradient on logo text, found this on stackoverflow */
+.grad-text {
     background: linear-gradient(90deg, #ff6b9d, #f9a825, #d94fc8);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -49,7 +49,7 @@ img {
 }
 
 
-/* navbar */
+/* navbar styles */
 .navbar {
     position: fixed;
     top: 0;
@@ -58,10 +58,10 @@ img {
     height: 70px;
     background-color: rgba(12, 9, 32, 0.92);
     z-index: 1000;
-    border-bottom: 1px solid rgba(123, 79, 255, 0.2);
+    border-bottom: 1px solid rgba(120, 79, 255, 0.15);
 }
 
-.nav-wrap {
+.nav-inside {
     display: flex;
     align-items: center;
     height: 100%;
@@ -77,52 +77,51 @@ img {
     color: #f0eeff;
 }
 
-.menu {
+.links {
     display: flex;
     gap: 30px;
     margin: 0 auto;
 }
 
-.menu a {
+.links a {
     font-size: 14px;
     font-weight: 500;
     color: #8a86b8;
 }
 
-.menu a:hover {
+.links a:hover {
     color: #f0eeff;
 }
 
-.nav-btn {
+.sub-btn {
     background: linear-gradient(90deg, #d94fc8, #7b4fff);
     color: #fff;
     font-size: 14px;
     font-weight: 600;
     padding: 8px 22px;
     border-radius: 50px;
-    cursor: pointer;
 }
 
-.nav-btn:hover {
-    opacity: 0.8;
+.sub-btn:hover {
+    opacity: 0.85;
 }
 
-#tog {
+#menu-toggle {
     display: none;
 }
 
-.ham {
+.hamburger {
     display: none;
     cursor: pointer;
 }
 
-.ham img {
+.hamburger img {
     width: 26px;
     height: 26px;
 }
 
 
-/* hero section */
+/* hero */
 .hero {
     position: relative;
     min-height: 100vh;
@@ -149,7 +148,7 @@ img {
     opacity: 0.4;
 }
 
-.overlay {
+.bg-dark {
     position: absolute;
     top: 0;
     left: 0;
@@ -187,7 +186,7 @@ img {
     border-radius: 3px;
 }
 
-.hero-content {
+.hero-text {
     position: relative;
     z-index: 3;
     display: flex;
@@ -198,7 +197,7 @@ img {
     gap: 16px;
 }
 
-.img-box {
+.mic-box {
     position: relative;
     width: 200px;
     height: 200px;
@@ -212,7 +211,7 @@ img {
     100% { transform: translateY(0); }
 }
 
-.badge {
+.new-tag {
     position: absolute;
     top: 6px;
     right: -4px;
@@ -226,7 +225,7 @@ img {
     letter-spacing: 1px;
 }
 
-.circle-img {
+.mic-circle {
     width: 200px;
     height: 200px;
     border-radius: 50%;
@@ -235,26 +234,26 @@ img {
     box-shadow: 0 0 50px rgba(217, 79, 200, 0.4);
 }
 
-.circle-img img {
+.mic-circle img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.title {
+.big-title {
     font-size: 64px;
     font-weight: 800;
     color: #f0eeff;
     line-height: 1.1;
 }
 
-.subtitle {
+.small-desc {
     font-size: 16px;
     color: #8a86b8;
     max-width: 440px;
 }
 
-.buttons {
+.hero-btns {
     display: flex;
     gap: 14px;
     flex-wrap: wrap;
@@ -262,7 +261,7 @@ img {
     margin-top: 8px;
 }
 
-.spotify-btn {
+.btn-spotify {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -272,22 +271,21 @@ img {
     font-weight: 700;
     padding: 10px 22px;
     border-radius: 50px;
-    cursor: pointer;
-    transition: transform 0.3s, box-shadow 0.3s;
+    transition: transform 0.2s, box-shadow 0.2s;
 }
 
-.spotify-btn:hover {
+.btn-spotify:hover {
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(0, 212, 160, 0.4);
 }
 
-.btn-icon {
+.btn-img {
     width: 18px;
     height: 18px;
     object-fit: contain;
 }
 
-.outline-btn {
+.btn-outline {
     display: flex;
     align-items: center;
     gap: 6px;
@@ -297,24 +295,23 @@ img {
     font-weight: 600;
     padding: 10px 22px;
     border-radius: 50px;
-    cursor: pointer;
-    transition: background-color 0.3s, transform 0.3s;
+    transition: background-color 0.3s, transform 0.2s;
 }
 
-.outline-btn:hover {
+.btn-outline:hover {
     background-color: rgba(255, 255, 255, 0.08);
     border-color: rgba(255, 255, 255, 0.6);
     transform: translateY(-2px);
 }
 
 
-/* about */
+/* about section */
 .about {
     padding: 80px 0;
     background-color: #100d24;
 }
 
-.para {
+.about-para {
     text-align: center;
     color: #8a86b8;
     max-width: 680px;
@@ -322,7 +319,7 @@ img {
     font-size: 15px;
 }
 
-.stats {
+.stats-row {
     display: flex;
     gap: 20px;
     margin-top: 50px;
@@ -331,7 +328,7 @@ img {
 .stat-box {
     flex: 1;
     background-color: #17133a;
-    border: 1px solid rgba(123, 79, 255, 0.2);
+    border: 1px solid rgba(130, 79, 255, 0.18);
     border-radius: 14px;
     padding: 30px 20px;
     text-align: center;
@@ -342,14 +339,14 @@ img {
     box-shadow: 0 0 40px rgba(123, 79, 255, 0.2);
 }
 
-.number {
+.stat-num {
     font-size: 38px;
     font-weight: 800;
     color: #00d4a0;
     margin-bottom: 6px;
 }
 
-.label {
+.stat-label {
     font-size: 11px;
     font-weight: 600;
     color: #8a86b8;
@@ -360,29 +357,29 @@ img {
 
 /* why section */
 .why {
-    padding: 75px 0;
+    padding: 80px 0;
     background-color: #0c0920;
 }
 
-.top {
+.top-cards {
     display: flex;
     gap: 16px;
     margin-top: 40px;
 }
 
-/* making the first card bigger */
-.big {
-    flex: 2;
+/* made this one wider than the others */
+.big-card {
+    flex: 1.2;
 }
 
-.side {
+.right-cards {
     display: flex;
     flex-direction: column;
     gap: 16px;
     flex: 1;
 }
 
-.bottom {
+.bottom-cards {
     display: flex;
     gap: 16px;
     margin-top: 16px;
@@ -390,7 +387,7 @@ img {
 
 .card {
     background-color: #17133a;
-    border: 1px solid rgba(123, 79, 255, 0.2);
+    border: 1px solid rgba(123, 79, 255, 0.18);
     border-radius: 14px;
     padding: 26px;
     flex: 1;
@@ -427,57 +424,57 @@ img {
     margin-bottom: 8px;
 }
 
-.card-para {
+.card-text {
     font-size: 13px;
     color: #8a86b8;
     line-height: 1.7;
 }
 
 
-/* episodes */
+/* episodes section */
 .episodes {
     padding: 80px 0;
     background-color: #100d24;
 }
 
-.ep-list {
+.ep-row {
     display: flex;
     gap: 20px;
     margin-top: 40px;
 }
 
-.ep-item {
+.ep-card {
     flex: 1;
     background-color: #17133a;
-    border: 1px solid rgba(123, 79, 255, 0.2);
+    border: 1px solid rgba(110, 79, 255, 0.2);
     border-radius: 14px;
     overflow: hidden;
 }
 
-.ep-item:hover {
+.ep-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 40px rgba(123, 79, 255, 0.3);
 }
 
-.ep-img {
+.ep-thumb {
     position: relative;
     height: 170px;
     overflow: hidden;
 }
 
-.t1 {
+.thumb1 {
     background: linear-gradient(135deg, #1a0533, #6b21a8, #db2777);
 }
 
-.t2 {
+.thumb2 {
     background: linear-gradient(135deg, #0c2340, #1d4ed8, #7c3aed);
 }
 
-.t3 {
+.thumb3 {
     background: linear-gradient(135deg, #052e16, #065f46, #7b4fff);
 }
 
-.play {
+.play-btn {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -489,25 +486,25 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    cursor: pointer;
+    transition: transform 0.2s;
 }
 
-.play:hover {
+.play-btn:hover {
     transform: translate(-50%, -50%) scale(1.1);
     background-color: #fff;
 }
 
-.arrow {
+.play-icon {
     color: #7b4fff;
     font-size: 16px;
     margin-left: 3px;
 }
 
-.ep-text {
+.ep-info {
     padding: 18px 20px 20px;
 }
 
-.ep-name {
+.ep-title {
     font-size: 15px;
     font-weight: 700;
     color: #f0eeff;
@@ -515,14 +512,14 @@ img {
     line-height: 1.4;
 }
 
-.ep-para {
+.ep-desc {
     font-size: 13px;
     color: #8a86b8;
     line-height: 1.65;
     margin-bottom: 12px;
 }
 
-.time {
+.ep-time {
     display: flex;
     align-items: center;
     gap: 6px;
@@ -538,24 +535,24 @@ img {
 }
 
 
-/* host */
+/* host section */
 .host {
     padding: 80px 0;
     background-color: #0c0920;
 }
 
-.host-wrap {
+.host-card {
     display: flex;
     align-items: center;
     gap: 36px;
     background-color: #17133a;
-    border: 1px solid rgba(123, 79, 255, 0.2);
+    border: 1px solid rgba(123, 79, 255, 0.18);
     border-radius: 14px;
     padding: 40px;
     margin-top: 40px;
 }
 
-.photo {
+.host-pic {
     width: 130px;
     height: 130px;
     border-radius: 50%;
@@ -564,20 +561,20 @@ img {
     min-width: 130px;
 }
 
-.h-img {
+.host-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.name {
+.host-name {
     font-size: 22px;
     font-weight: 700;
     color: #f0eeff;
     margin-bottom: 10px;
 }
 
-.bio {
+.host-bio {
     font-size: 14px;
     color: #8a86b8;
     line-height: 1.75;
@@ -590,7 +587,7 @@ img {
     gap: 10px;
 }
 
-.social-link {
+.s-icon {
     width: 36px;
     height: 36px;
     background-color: rgba(255, 255, 255, 0.07);
@@ -600,14 +597,15 @@ img {
     align-items: center;
     justify-content: center;
     padding: 7px;
+    transition: background-color 0.25s;
 }
 
-.social-link:hover {
+.s-icon:hover {
     background-color: rgba(123, 79, 255, 0.25);
     transform: translateY(-2px);
 }
 
-.social-link img {
+.s-icon img {
     width: 18px;
     height: 18px;
     object-fit: contain;
@@ -638,7 +636,7 @@ img {
     opacity: 0.15;
 }
 
-.footer-overlay {
+.footer-dark {
     position: absolute;
     top: 0;
     left: 0;
@@ -648,7 +646,7 @@ img {
     z-index: 1;
 }
 
-.footer-content {
+.footer-inside {
     position: relative;
     z-index: 2;
     display: flex;
@@ -671,7 +669,7 @@ img {
     justify-content: center;
 }
 
-.link {
+.f-link {
     display: flex;
     align-items: center;
     gap: 6px;
@@ -680,17 +678,17 @@ img {
     font-weight: 500;
 }
 
-.link img {
+.f-link img {
     width: 18px;
     height: 18px;
     object-fit: contain;
 }
 
-.link:hover {
+.f-link:hover {
     color: #f0eeff;
 }
 
-.copyright {
+.footer-copy {
     font-size: 12px;
     color: #5c5880;
     border-top: 1px solid rgba(255, 255, 255, 0.06);
@@ -700,30 +698,32 @@ img {
 }
 
 
-/* tablet */
+/* tablet view */
 @media (max-width: 992px) {
 
-    .stats {
+    .stats-row {
         flex-wrap: wrap;
     }
 
     .stat-box {
-        flex: 1 1 40%;
+        width: 48%;
+        flex: unset;
     }
 
-    .ep-list {
+    .ep-row {
         flex-wrap: wrap;
     }
 
-    .ep-item {
-        flex: 1 1 45%;
+    .ep-card {
+        width: 47%;
+        flex: unset;
     }
 
-    .top {
+    .top-cards {
         flex-direction: column;
     }
 
-    .title {
+    .big-title {
         font-size: 48px;
     }
 
@@ -738,20 +738,21 @@ img {
 /* mobile */
 @media (max-width: 576px) {
 
-    .menu {
+    .links {
         display: none;
     }
 
-    .nav-btn {
+    .sub-btn {
         display: none;
     }
 
-    .ham {
+    .hamburger {
         display: block;
         margin-left: auto;
     }
 
-    #tog:checked ~ .menu {
+    /* show menu when checkbox clicked */
+    #menu-toggle:checked ~ .links {
         display: flex;
         flex-direction: column;
         position: absolute;
@@ -770,31 +771,31 @@ img {
         display: none;
     }
 
-    .title {
+    .big-title {
         font-size: 40px;
     }
 
-    .subtitle {
+    .small-desc {
         font-size: 14px;
     }
 
-    .img-box {
+    .mic-box {
         width: 155px;
         height: 155px;
     }
 
-    .circle-img {
+    .mic-circle {
         width: 155px;
         height: 155px;
     }
 
-    .buttons {
+    .hero-btns {
         flex-direction: column;
         align-items: center;
     }
 
-    .spotify-btn,
-    .outline-btn {
+    .btn-spotify,
+    .btn-outline {
         width: 200px;
         justify-content: center;
     }
@@ -803,13 +804,14 @@ img {
         padding: 50px 0;
     }
 
-    .stats {
+    /* used grid here so it shows 2 per row */
+    .stats-row {
         display: grid;
         grid-template-columns: 1fr 1fr;
         gap: 14px;
     }
 
-    .number {
+    .stat-num {
         font-size: 28px;
     }
 
@@ -817,21 +819,21 @@ img {
         padding: 50px 0;
     }
 
-    .top {
+    .top-cards {
         flex-direction: column;
         gap: 14px;
     }
 
-    .side {
+    .right-cards {
         gap: 14px;
     }
 
-    .bottom {
+    .bottom-cards {
         flex-direction: column;
         gap: 14px;
     }
 
-    .big {
+    .big-card {
         flex: unset;
     }
 
@@ -839,15 +841,19 @@ img {
         padding: 50px 0;
     }
 
-    .ep-list {
+    .ep-row {
         flex-direction: column;
+    }
+
+    .ep-card {
+        width: 100%;
     }
 
     .host {
         padding: 50px 0;
     }
 
-    .host-wrap {
+    .host-card {
         flex-direction: column;
         align-items: center;
         text-align: center;
@@ -859,7 +865,7 @@ img {
         justify-content: center;
     }
 
-    .bio {
+    .host-bio {
         font-size: 13px;
     }
 
@@ -875,7 +881,7 @@ img {
         gap: 16px;
     }
 
-    .heading {
+    .sec-title {
         font-size: 24px;
     }
 
