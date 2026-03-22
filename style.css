@@ -26,6 +26,7 @@ img {
   max-width: 100%;
 }
 
+/* gradient color eta reuse korsi */
 .col1 {
     background: linear-gradient(90deg, #ff6b9d, #f9a825, #d94fc8);
     -webkit-background-clip: text;
@@ -33,7 +34,7 @@ img {
     background-clip: text;
 }
 
-/* ---- nav ---- */
+/* nav fixed kora */
 
 .topnav {
     position: fixed;
@@ -62,7 +63,8 @@ img {
     color: #f0eeff;
 }
 
-.nlist {
+/* nav er links gulo */
+.navlinks {
     display: flex;
     gap: 30px;
     margin-left: auto;
@@ -70,17 +72,18 @@ img {
     list-style: none;
 }
 
-.nlist a {
+.navlinks a {
   font-size: 14px;
   color: #8a86b8;
   text-decoration: none;
 }
 
-.nlist a:hover {
+.navlinks a:hover {
     color: #f0eeff;
 }
 
-.btn1 {
+/* subscribe button */
+.subbtn {
     background: linear-gradient(90deg, #d94fc8, #7b4fff);
     color: #fff;
     font-size: 14px;
@@ -90,12 +93,13 @@ img {
     text-decoration: none;
 }
 
-.btn1:hover { opacity: 0.8; }
+.subbtn:hover { opacity: 0.8; }
 
 #menutoggle {
     display: none;
 }
 
+/* mobile menu button eta */
 .mbtn {
   display: none;
   cursor: pointer;
@@ -107,9 +111,9 @@ img {
     max-width: 100%;
 }
 
-/* hero */
+/* hero section */
 
-.div1 {
+.hero {
     position: relative;
     min-height: 100vh;
     display: flex;
@@ -135,7 +139,8 @@ img {
     opacity: 0.4;
 }
 
-.ov1 {
+/* hero er upor ekta dark layer disi */
+.overlay {
     position: absolute;
     top: 0; left: 0;
     width: 100%;
@@ -168,6 +173,7 @@ img {
   opacity: 0.5;
 }
 
+/* bar height gulo manually disi */
 .lbars span,
 .rbars span {
     display: block;
@@ -213,17 +219,16 @@ img {
   gap: 16px;
 }
 
-.mic1 {
+/* mic image er div */
+.mic-area {
     position: relative;
     width: 200px;
     height: 200px;
     margin-bottom: 10px;
-    
 }
 
-
-
-.badge1 {
+/* new badge upper right e */
+.new-badge {
   position: absolute;
   top: 6px;
   right: -4px;
@@ -237,29 +242,29 @@ img {
   letter-spacing: 1px;
 }
 
-.img1 {
+/* circle image */
+.circleimg {
     width: 200px;
     height: 200px;
     border-radius: 50%;
     overflow: hidden;
     border: 3px solid #d94fc880;
-    
 }
 
-.img1 img {
+.circleimg img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.h1big {
+.main-heading {
     font-size: 64px;
     font-weight: 800;
     color: #f0eeff;
     line-height: 1.1;
 }
 
-.p1 {
+.hero-para {
   font-size: 16px;
   color: #8a86b8;
   max-width: 440px;
@@ -273,7 +278,8 @@ img {
     margin-top: 8px;
 }
 
-.sbtn {
+/* spotify button green wala */
+.spotify-btn {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -286,7 +292,7 @@ img {
     text-decoration: none;
 }
 
-.sbtn:hover { opacity: 0.85; }
+.spotify-btn:hover { opacity: 0.85; }
 
 .sico {
     width: 18px;
@@ -308,9 +314,9 @@ img {
 
 .btn2:hover { background-color: #ffffff15; }
 
-/* about */
+/* about section */
 
-.sec2 {
+.about {
     padding: 80px 0;
     background-color: #100d24;
 }
@@ -321,7 +327,8 @@ img {
   margin: 0 auto;
 }
 
-.t1 {
+/* section title eta reuse hobe */
+.sec-title {
     font-size: 32px;
     font-weight: 700;
     text-align: center;
@@ -337,13 +344,14 @@ img {
     font-size: 15px;
 }
 
-.srow {
+/* stat gulo row e disi */
+.stats-row {
     display: flex;
     gap: 18px;
     margin-top: 50px;
 }
 
-.sb {
+.stat-box {
   flex: 1;
   background-color: #17133a;
   border: 1px solid #7b4fff33;
@@ -352,7 +360,8 @@ img {
   text-align: center;
 }
 
-.num1 {
+/* bড় number eta */
+.bignum {
     font-size: 38px;
     font-weight: 800;
     color: #00d4a0;
@@ -367,14 +376,14 @@ img {
   text-transform: uppercase;
 }
 
-/* why */
+/* keno section */
 
 .sec3 {
     padding: 80px 0;
     background-color: #0c0920;
 }
 
-.box2 {
+.why-box {
     width: 90%;
     max-width: 1100px;
   margin: 0 auto;
@@ -394,7 +403,8 @@ img {
     margin-top: 40px;
 }
 
-.bigc {
+/* bড় card ta left e */
+.bigcard {
     width: 60%;
 }
 
@@ -411,6 +421,7 @@ img {
     margin-top: 16px;
 }
 
+/* feature card gulo */
 .fc {
     background-color: #17133a;
     border: 1px solid #7b4fff33;
@@ -421,7 +432,8 @@ img {
 
 .fc:hover { background-color: #1e1a46; }
 
-.ibox {
+/* icon er box */
+.icon-box {
   width: 48px;
   height: 48px;
   background-color: #7b4fff25;
@@ -438,7 +450,8 @@ img {
     height: 28px;
 }
 
-.ch {
+/* card heading */
+.card-head {
     font-size: 16px;
     font-weight: 700;
     color: #f0eeff;
@@ -451,9 +464,9 @@ img {
   line-height: 1.7;
 }
 
-/* episodes */
+/* episode section */
 
-.sec4 {
+.ep-area {
     padding: 80px 0;
     background-color: #100d24;
 }
@@ -464,7 +477,7 @@ img {
   margin: 0 auto;
 }
 
-.t3 {
+.ep-title {
   font-size: 32px;
   font-weight: 700;
   text-align: center;
@@ -478,7 +491,8 @@ img {
     margin-top: 40px;
 }
 
-.card1 {
+/* episode card */
+.ep-card {
     flex: 1;
     background-color: #17133a;
     border: 1px solid #7b4fff33;
@@ -486,11 +500,13 @@ img {
     overflow: hidden;
 }
 
-.card1:hover {
+/* hover e thoda up jabe */
+.ep-card:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 40px #7b4fff44;
 }
 
+/* thumbnail background color gulo */
 .th1 {
     position: relative;
     height: 170px;
@@ -509,7 +525,8 @@ img {
     background: linear-gradient(135deg, #052e16, #065f46, #7b4fff);
 }
 
-.pbtn {
+/* play button center e */
+.play-btn {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -525,7 +542,7 @@ img {
     text-decoration: none;
 }
 
-.pbtn:hover {
+.play-btn:hover {
     background-color: #fff;
     transform: scale(1.1);
 }
@@ -540,6 +557,7 @@ img {
     padding: 18px 20px 20px;
 }
 
+/* episode title */
 .et {
     font-size: 15px;
     font-weight: 700;
@@ -548,7 +566,7 @@ img {
     line-height: 1.4;
 }
 
-.ed {
+.ep-desc {
   font-size: 13px;
   color: #8a86b8;
   line-height: 1.65;
@@ -569,9 +587,9 @@ img {
     height: 14px;
 }
 
-/* host */
+/* host section */
 
-.sec5 {
+.host-sec {
     padding: 80px 0;
     background-color: #0c0920;
 }
@@ -590,6 +608,7 @@ img {
     margin-bottom: 16px;
 }
 
+/* host card box */
 .hbox {
     display: flex;
     align-items: center;
@@ -601,7 +620,8 @@ img {
     margin-top: 40px;
 }
 
-.hphoto {
+/* host er profile photo */
+.host-photo {
   width: 130px;
   height: 130px;
   border-radius: 50%;
@@ -631,7 +651,8 @@ img {
     margin-bottom: 18px;
 }
 
-.soc {
+/* social icon row */
+.social-links {
     display: flex;
     gap: 10px;
 }
@@ -680,7 +701,8 @@ img {
     opacity: 0.15;
 }
 
-.fov {
+/* footer er overlay */
+.footer-ov {
   position: absolute;
   top: 0; left: 0;
   width: 100%;
@@ -689,7 +711,8 @@ img {
   z-index: 1;
 }
 
-.box5 {
+/* footer content center e */
+.fbox {
     width: 90%;
     max-width: 1100px;
     margin: 0 auto;
@@ -708,7 +731,8 @@ img {
     color: #f0eeff;
 }
 
-.plinks {
+/* platform link gulo */
+.platform-links {
   display: flex;
   flex-wrap: wrap;
   gap: 22px;
@@ -740,14 +764,14 @@ img {
     text-align: center;
 }
 
-/* tablet */
+/* tablet size */
 @media (max-width: 992px) {
 
-  .srow {
+  .stats-row {
       flex-wrap: wrap;
   }
 
-  .sb {
+  .stat-box {
       width: 47%;
       flex: unset;
   }
@@ -756,7 +780,7 @@ img {
       flex-wrap: wrap;
   }
 
-  .card1 {
+  .ep-card {
       width: 47%;
       flex: unset;
   }
@@ -765,24 +789,26 @@ img {
     flex-direction: column;
   }
 
-  .h1big {
+  .main-heading {
       font-size: 48px;
   }
 
+  /* tablet e hide korsi */
   .lbars,
   .rbars {
       display: none;
   }
 }
 
-/* mobile */
+/* mobile screen */
 @media (max-width: 576px) {
 
-  .nlist {
+  .navlinks {
       display: none;
   }
 
-  .btn1 {
+  /* subscribe button hide mobile e */
+  .subbtn {
       display: none;
   }
 
@@ -791,8 +817,8 @@ img {
       margin-left: auto;
   }
 
-  /* menu open */
-  .nlist.open {
+  /* menu open hoile */
+  .navlinks.open {
       display: flex;
       flex-direction: column;
       position: absolute;
@@ -810,43 +836,44 @@ img {
       display: none;
   }
 
-  .h1big {
+  .main-heading {
     font-size: 40px;
   }
 
-  .p1 {
+  .hero-para {
     font-size: 14px;
   }
 
-  .mic1 {
+  .mic-area {
       width: 155px;
       height: 155px;
   }
 
-  .img1 {
+  .circleimg {
     width: 155px;
     height: 155px;
   }
 
+  /* button gulo column e mobile te */
   .bgroup {
       flex-direction: column;
       align-items: center;
   }
 
-  .sbtn, .btn2 {
+  .spotify-btn, .btn2 {
       width: 200px;
       justify-content: center;
   }
 
-  .sec2 { padding: 50px 0; }
+  .about { padding: 50px 0; }
 
-  .srow {
+  .stats-row {
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 14px;
   }
 
-  .num1 {
+  .bignum {
       font-size: 28px;
   }
 
@@ -864,15 +891,16 @@ img {
       gap: 14px;
   }
 
-  .bigc { flex: unset; }
+  .bigcard { flex: unset; }
 
-  .sec4 { padding: 50px 0; }
+  .ep-area { padding: 50px 0; }
 
+  /* mobile e card ekta kore */
   .eplist { flex-direction: column; }
 
-  .card1 { width: 100%; }
+  .ep-card { width: 100%; }
 
-  .sec5 { padding: 50px 0; }
+  .host-sec { padding: 50px 0; }
 
   .hbox {
       flex-direction: column;
@@ -882,7 +910,7 @@ img {
       gap: 20px;
   }
 
-  .soc { justify-content: center; }
+  .social-links { justify-content: center; }
 
   .hbio { font-size: 13px; }
 
@@ -890,9 +918,10 @@ img {
 
   .flogo { font-size: 26px; }
 
-  .plinks { gap: 16px; }
+  .platform-links { gap: 16px; }
 
-  .t1, .t2, .t3, .t4 {
+  /* section title gulo chhoto hobe mobile e */
+  .sec-title, .t2, .ep-title, .t4 {
       font-size: 24px;
   }
 }
