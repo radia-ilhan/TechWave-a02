@@ -6,6 +6,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    
     background-color: #0c0920;
     color: #f0eeff;
     line-height: 1.5;
@@ -38,19 +39,23 @@ img {
     background-color: #0c0920;
     border-bottom: 1px solid #2a1f55;
     padding: 0 5%;
+    
     height: 70px;
 }
 
 .row1 {
     max-width: 1100px;
     margin: 0 auto;
+    
     height: 70px;
 }
 
 .logo1 {
     float: left;
     font-size: 22px;
+    
     font-weight: 800;
+    
     color: #f0eeff;
     line-height: 70px;
 }
@@ -78,11 +83,14 @@ img {
 .btn1 {
     float: right;
     background-color: #d94fc8;
+    
     color: #fff9f9;
     font-size: 15px;
     font-weight: 600;
+    
     padding: 10px 25px;
     border-radius: 5px;
+    
     margin-top: 15px;
 }
 
@@ -106,6 +114,7 @@ img {
 
 .mic1 {
     width: 200px;
+    
     height: 200px;
     margin: 0 auto 10px;
     position: relative;
@@ -119,6 +128,7 @@ img {
     font-size: 10px;
     font-weight: 800;
     padding: 3px 10px;
+    
     border-radius: 4px;
     margin-bottom: 8px;
 }
@@ -127,6 +137,7 @@ img {
     width: 200px;
     height: 200px;
     border-radius: 50%;
+    
     overflow: hidden;
     border: 5px solid #d94fc8;
 }
@@ -157,9 +168,12 @@ img {
     display: inline-block;
     background-color: #00d4a0;
     color: #0c0920;
+    
     font-size: 14px;
     font-weight: 700;
+    
     padding: 10px 22px;
+    
     border-radius: 6px;
     margin: 5px 7px;
 }
@@ -171,6 +185,7 @@ img {
 .sico {
     width: 18px;
     height: 18px;
+    
     display: inline-block;
     vertical-align: middle;
     margin-right: 6px;
@@ -179,9 +194,11 @@ img {
 .btn2 {
     display: inline-block;
     border: 1px solid #939393;
+    
     color: #f0eeff;
     font-size: 14px;
     font-weight: 600;
+    
     padding: 10px 22px;
     border-radius: 6px;
     margin: 5px 7px;
@@ -208,6 +225,7 @@ img {
 .t1 {
     font-size: 32px;
     font-weight: 700;
+    
     text-align: center;
     color: #f0eeff;
     margin-bottom: 16px;
@@ -216,7 +234,9 @@ img {
 .pp1 {
     text-align: center;
     color: #8a86b8;
+    
     max-width: 680px;
+    
     margin: 0 auto 15px;
     font-size: 15px;
 }
@@ -273,6 +293,7 @@ img {
 .t2 {
     font-size: 32px;
     font-weight: 700;
+    
     text-align: center;
     color: #f0eeff;
     margin-bottom: 16px;
@@ -313,6 +334,7 @@ img {
     height: 48px;
     background-color: #2a1f55;
     border-radius: 8px;
+    
     padding: 10px;
     margin-bottom: 14px;
 }
@@ -365,8 +387,10 @@ img {
     float: left;
     width: 30%;
     margin-right: 3%;
+    
     background-color: #17133a;
     border: 1px solid #7b4fff;
+    
     border-radius: 10px;
     overflow: hidden;
 }
@@ -396,12 +420,14 @@ img {
 .pbtn {
     position: absolute;
     top: 60px;
+    
     left: 50%;
     margin-left: -25px;
     width: 50px;
     height: 50px;
     border-radius: 50%;
     background-color: #ffffff;
+    
     text-align: center;
     line-height: 50px;
     display: block;
@@ -455,6 +481,7 @@ img {
 .t4 {
     font-size: 32px;
     font-weight: 700;
+    
     text-align: center;
     color: #f0eeff;
     margin-bottom: 16px;
@@ -463,6 +490,7 @@ img {
 .hbox {
     background-color: #17133a;
     border: 1px solid #7b4fff;
+    
     border-radius: 14px;
     padding: 40px;
     margin-top: 40px;
@@ -473,7 +501,9 @@ img {
     width: 130px;
     height: 130px;
     border-radius: 50%;
+    
     overflow: hidden;
+    
     border: 3px solid #7b4fff;
     margin: 0 auto 20px;
 }
@@ -495,6 +525,7 @@ img {
     color: #8a86b8;
     line-height: 1.75;
     max-width: 620px;
+    
     margin: 0 auto 18px;
 }
 
@@ -504,11 +535,14 @@ img {
 
 .si {
     display: inline-block;
+    
     width: 36px;
     height: 36px;
     background-color: #2a1f55;
+    
     border: 1px solid #7b4fff;
     border-radius: 8px;
+    
     padding: 7px;
     margin-right: 8px;
 }
