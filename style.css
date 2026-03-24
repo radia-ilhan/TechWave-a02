@@ -376,35 +376,32 @@ img {
 }
 
 .th1 {
-    position: relative;
     height: 170px;
-    background-color: #2a0a3a;
+    background-color: #2a0a3a; 
+    text-align: center; 
 }
 
 .th2 {
-    position: relative;
     height: 170px;
-    background-color: #0c1e40;
+    background-color: #210a3a; 
+    text-align: center; 
 }
 
 .th3 {
-    position: relative;
     height: 170px;
+    text-align: center; 
     background-color: #052e16;
 }
 
 .pbtn {
-    position: absolute;
-    top: 60px;
-    left: 50%;
-    margin-left: -25px;
+    display: inline-block;
     width: 50px;
     height: 50px;
     border-radius: 50%;
     background-color: #ffffff;
     text-align: center;
     line-height: 50px;
-    display: block;
+    margin: 60px auto 0; 
 }
 
 .pico {
@@ -593,4 +590,15 @@ img {
         margin: 10px auto;
         display: inline-block;
     }
+    @media (max-width: 576px) {
+    
+        .card1 {   
+            width: 100%;      
+            margin-right: 0;
+    }
+
+    .pbtn {
+        margin-top: 30px;  
+    }
+}
 }
