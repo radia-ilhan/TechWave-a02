@@ -5,16 +5,13 @@
 }
 
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #0c0920;
     color: #f0eeff;
-    line-height: 1.6;
+    line-height: 1.5;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
+
 
 ul {
     list-style: none;
@@ -70,7 +67,7 @@ img {
 }
 
 .nlist a {
-    font-size: 14px;
+    font-size: 15px;
     color: #8a86b8;
 }
 
@@ -82,11 +79,11 @@ img {
     float: right;
     background-color: #d94fc8;
     color: #fff;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 600;
-    padding: 8px 22px;
-    border-radius: 6px;
-    margin-top: 17px;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-top: 15px;
 }
 
 .btn1:hover {
@@ -115,16 +112,17 @@ img {
 }
 
 .badge1 {
-    position: absolute;
-    top: 6px;
-    right: -4px;
+    display: inline-block;
+    
     background-color: #00d4a0;
     color: #0c0920;
     font-size: 10px;
     font-weight: 800;
     padding: 3px 10px;
     border-radius: 4px;
-    letter-spacing: 1px;
+
+    margin-left: 140px; 
+    margin-top: 4px;
 }
 
 .img1 {
@@ -132,7 +130,7 @@ img {
     height: 200px;
     border-radius: 50%;
     overflow: hidden;
-    border: 3px solid #d94fc8;
+    border: 5px solid #d94fc8;
 }
 
 .img1 img {
@@ -141,20 +139,20 @@ img {
 }
 
 .h1big {
-    font-size: 56px;
+    font-size: 55px;
     font-weight: 800;
     color: #f0eeff;
-    margin-top: 12px;
+    margin-top: 10px;
 }
 
 .p1 {
-    font-size: 16px;
+    font-size: 15px;
     color: #8a86b8;
-    margin: 12px auto 0;
+    margin: 10px auto 0;
 }
 
 .bgroup {
-    margin-top: 22px;
+    margin-top: 20px;
 }
 
 .sbtn {
@@ -257,7 +255,7 @@ img {
     font-weight: 600;
     color: #8a86b8;
     letter-spacing: 1px;
-    text-transform: uppercase;
+   
 }
 
 
@@ -357,11 +355,11 @@ img {
 }
 
 .t3 {
-    font-size: 32px;
+    font-size: 30px;
     font-weight: 700;
     text-align: center;
     color: #f0eeff;
-    margin-bottom: 16px;
+    margin-bottom: 15px;
 }
 
 .eplist {
@@ -370,11 +368,11 @@ img {
 
 .card1 {
     float: left;
-    width: 31%;
-    margin-right: 3.5%;
+    width: 30%;
+    margin-right: 3%;
     background-color: #17133a;
     border: 1px solid #7b4fff;
-    border-radius: 12px;
+    border-radius: 10px;
     overflow: hidden;
 }
 
@@ -576,4 +574,11 @@ img {
     color: #5c5880;
     border-top: 1px solid #ffffff10;
     padding-top: 22px;
+}
+
+@media (max-width: 576px) {
+    .badge1 {
+        margin-left: 90px;
+        margin-top: -160px;
+    }
 }
