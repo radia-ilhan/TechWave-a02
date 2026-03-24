@@ -26,13 +26,13 @@ img {
     color: #d94fc8;
 }
 
-/* clearfix helper */
+
 .clear1 {
     clear: both;
 }
 
 
-/* ── NAV ─────────────────────────────────────────── */
+/*nav ekhane*/
 
 .topnav {
     background-color: #0c0920;
@@ -91,7 +91,7 @@ img {
 }
 
 
-/* ── HERO ────────────────────────────────────────── */
+/*hero r part*/
 
 .div1 {
     background-color: #17133a;
@@ -192,7 +192,7 @@ img {
 }
 
 
-/* ── ABOUT ───────────────────────────────────────── */
+/*ekhane abt*/
 
 .about-sec {
     padding: 80px 0;
@@ -257,7 +257,7 @@ img {
 }
 
 
-/* ── WHY ─────────────────────────────────────────── */
+/*why er part*/
 
 .sec3 {
     padding: 80px 0;
@@ -336,7 +336,7 @@ img {
 }
 
 
-/* ── EPISODES ────────────────────────────────────── */
+/*epsd*/
 
 .ep-sec {
     padding: 80px 0;
@@ -439,7 +439,7 @@ img {
 }
 
 
-/* ── HOST ────────────────────────────────────────── */
+/*host*/
 
 .sec5 {
     padding: 80px 0;
@@ -519,7 +519,7 @@ img {
 }
 
 
-/* ── FOOTER ──────────────────────────────────────── */
+/*nicher part*/
 
 .ftr {
     padding: 60px 0 36px;
